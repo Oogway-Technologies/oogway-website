@@ -4,50 +4,21 @@
 /node_modules
 /.pnp
 .pnp.js
-<<<<<<< HEAD
-=======
 .firebase/
->>>>>>> 6e7d929b0c8bc5c9dd2b2d6ea09ec900b5c6c8ec
 
 # testing
 /coverage
 
-<<<<<<< HEAD
-# next.js
-/.next/
-/out/
-
-=======
->>>>>>> 6e7d929b0c8bc5c9dd2b2d6ea09ec900b5c6c8ec
 # production
 /build
 
 # misc
 .DS_Store
-<<<<<<< HEAD
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-=======
->>>>>>> 6e7d929b0c8bc5c9dd2b2d6ea09ec900b5c6c8ec
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-<<<<<<< HEAD
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-=======
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> 6e7d929b0c8bc5c9dd2b2d6ea09ec900b5c6c8ec
