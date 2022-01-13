@@ -5,7 +5,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
     return (
         <>
-        <main>{children}</main>
+        <main className="h-full">{children}</main>
         </>
     )
 }

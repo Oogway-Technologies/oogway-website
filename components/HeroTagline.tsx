@@ -8,13 +8,13 @@ interface HeroTaglineProps {
 const HeroTagline = ({ tagline, questionArray }: HeroTaglineProps) => {
     return (
         <>
-        <div className="mt-3 break-words text-xl font-sans">
+        <div className="mt-3 mx-5 break-words text-sm md:text-xl font-sans">
             <TextLoop
                 springConfig={{ stiffness: 180, damping: 16}} 
                 children={questionArray} />{" "}
-                if you always made the right decision?
+                <span className='block md:inline-flex'>if you always made the right decision?</span>
         </div>
-        <p className="mt-64 break-words text-l font-sans">
+        <p className="mt-64 break-words text-sm md:text-lg font-sans">
             {tagline}
         </p>
         </>
@@ -22,7 +22,7 @@ const HeroTagline = ({ tagline, questionArray }: HeroTaglineProps) => {
 }
 
 HeroTagline.defaultProps = {
-    tagline: "Oogway is your personalized AI assistant.",
+    tagline: "Oogway is your personalized AI decision assistant",
     questionArray: [
         "What would your life be like",
         "Where would you live",

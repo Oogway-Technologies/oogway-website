@@ -6,9 +6,9 @@ interface DiscordProps {
 
 const Discord = ({ href }: DiscordProps) => {
     return (
-        <button className="rounded-md ease-in-out duration-300 bg-[#921e9e] text-white hover:bg-white hover:text-black p-3 font-sans">
+        <button className="rounded-md break-words ease-in-out duration-300 bg-[#921e9e] text-white hover:bg-white hover:text-black p-3 font-sans">
             <Link href={href}>
-                <a className="text-base">Contribute in Discord!</a>
+                <a className="text-sm md:text-base ">Contribute in Discord!</a>
             </Link>
         </button>
     )
